@@ -1,0 +1,53 @@
+*{
+background-color: grey;
+}
+h1 {
+ display: flex;
+ justify-content: center;
+}
+
+h2{
+    display: flex;
+ justify-content: center;
+ color: blue;
+}
+
+.game{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.optionBtn{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px;
+}
+
+button{
+    justify-content: center;
+    font-size: px;
+    padding: 50px;
+}
+.score {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+  .results{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+  .finalresult{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    color: white;
+    border: 1px;
+    font-size: 50px;
+    padding: 2px;
+  }

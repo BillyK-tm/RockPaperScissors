@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors game</title>
 </head>
 <body>
+
+<game> <!-- top level of flex box-->
+    
+    <h1>Welcome to Rock paper scissors game </h1>
+    <h2>click on a button to start the game </h2>
+    <div class="score"> 
+        <div id="player-score">0</div>
+        <div style="margin: 0px 50px">-</div>
+        <div id="computer-score">0</div>
+      </div>
+
+    <!-- get users to enter their selection -->
+   <!-- <div class="optionBtn">  
+        <button id ="0" >  <img src="images/rock.jpg" alt="rock"> </button>
+        <button id ="1"><img src="images/paper.jpg" alt="paper"></button>
+        <button id ="2"><img src="images/scissors.jpg" alt="scissors"></button>
+   </div> -->
+
+   <div class="optionBtn">
+    <button id="0">Rock</button>
+    <button id="1">Paper</button>
+    <button id="2">Scissors</button>
+  </div>
+       <!-- Results -->
+    <div class="results">
+        <div id="playersText">Player selected </div>
+       <div> / </div>
+        <div id="computersText">Computer selected</div>
+
+    </div>
+    <div class="results"> 
+        <div>Result:</div>
+        <div id="resultText">-</div>
+    </div>
+
+
+
+    <div class="finalresult"> 
+        <div>final result:  </div>
+        <div id="finalResult"> Game On</div>
+    </div>
+
+    <div>
+        <button id="reset">Reset</button>
+    </div>
+
+</game>
+<div class="returnToHome"> 
+    <button id="4">Return to home</button>    
+</div>
+    <!-- <script src="Index.js"></script> -->
+
+    <script src="scripts.js"></script>
     
 </body>
 </html>
