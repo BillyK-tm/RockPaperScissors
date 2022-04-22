@@ -41,7 +41,7 @@ function computerPlay(){
         finalResult.textContent = winnerText[0]; 
     } else{
         playRound(choices[playerChoice],choices[computerPlay()])
-       
+    //    max number of rounds reached then game over
         if (gamecounter ===5) {gameOver = true};
     }
 }
